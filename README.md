@@ -98,8 +98,8 @@ This guide is, admittedly, a little vague at some places in that it does not tel
 	```
 
 ## Testing
-- Download the example application for testing called "Example.php" via https://github.com/OracleMichael/PHP-ATP/Example.php TODO change this URL later
-	- Via command line: `curl https://github.com/OracleMichael/PHP-ATP/Example.php`
+- Download the example application for testing called "Example.php" via https://github.com/OracleMichael/PHP-ATP/Example.php
+	- Via command line: `curl https://raw.githubusercontent.com/OracleMichael/PHP-ATP/master/Example.php > Example.php`
 - Modify the file:
 	- Open the file: `vim Example.php`
 	- (optional) Show the line numbers: `:set number`

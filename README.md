@@ -110,18 +110,26 @@ This guide is, admittedly, a little vague at some places in that it does not tel
 	- Type ":wq" to save and quit
 - Run the file
 	- Execute `php -f Example.php`
-	- Here is an example of proper output:
+	- Here is the output you should see:
 	```
-	PHP Warning:  oci_execute(): ORA-01950: no privileges on tablespace 'DATA' in /home/opc/app/Example.php on line 75
-	PHP Warning:  oci_execute(): ORA-01950: no privileges on tablespace 'DATA' in /home/opc/app/Example.php on line 75
-	PHP Warning:  oci_execute(): ORA-01950: no privileges on tablespace 'DATA' in /home/opc/app/Example.php on line 75
 	<table border='1'>
 	<tr>
 	<th><b>ID</b></th>
 	<th><b>DATA</b></th>
 	</tr>
+	<tr>
+	<td>101</td>
+	<td>Alpha</td>
+	</tr>
+	<tr>
+	<td>102</td>
+	<td>Beta</td>
+	</tr>
+	<tr>
+	<td>103</td>
+	<td>Gamma</td>
+	</tr>
 	</table>
 	```
-TODO fix the warnings
 
 ## That's it, you're done!

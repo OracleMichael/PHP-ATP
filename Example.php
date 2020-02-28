@@ -22,10 +22,10 @@
 
 // The string parameters are as follows:
 // 	Username (demo)
-// 	Password (obviouslysecurepassword)
-// 	Connect string (servicename_hight)
+// 	Password (pass)
+// 	Connect string (servicename_high)
 // The connect string is the name of the connection to use defined in the tnsnames.ora file.
-$c = oci_connect("demo", "obviouslysecurepassword", "servicename_high");
+$c = oci_connect("demo", "pass", "servicename_high");
 if (!$c) {
     $m = oci_error();
     trigger_error("Could not connect to database: ". $m["message"], E_USER_ERROR);
